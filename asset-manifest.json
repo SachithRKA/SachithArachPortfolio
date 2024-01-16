@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SachithArachPortfolio/static/css/main.241951ba.css",
+    "main.js": "/SachithArachPortfolio/static/js/main.120ecf36.js",
+    "index.html": "/SachithArachPortfolio/index.html",
+    "main.241951ba.css.map": "/SachithArachPortfolio/static/css/main.241951ba.css.map",
+    "main.120ecf36.js.map": "/SachithArachPortfolio/static/js/main.120ecf36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.241951ba.css",
+    "static/js/main.120ecf36.js"
+  ]
+}
