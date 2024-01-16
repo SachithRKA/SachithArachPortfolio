@@ -1,0 +1,53 @@
+.Skills {
+    width: 100%;
+    height: 100%;
+    padding: 10rem 0;
+    background-color: rgb(178, 221, 221);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proj-wrap {
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.title {
+    color: $h1-color;
+    box-shadow: none;
+    border-color: $h1-color;
+    margin-bottom: $rem-unit * 3;
+}
+
+.list {
+    margin: $rem-unit;
+    background-color: $h1-color;
+    box-shadow: 0.3rem 0.3rem 0.5rem #777;
+    position: relative;
+    padding: $rem-unit;
+}
+
+.skill-title {
+    text-align: center;
+    font-size: 2 * $rem-unit;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    position: relative;
+    text-transform: capitalize;
+    z-index: 10;
+}
+
+.skills {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    font-size: 1.8 * $rem-unit;
+    font-weight: 400;
+    color: $b-other-color;
+}
