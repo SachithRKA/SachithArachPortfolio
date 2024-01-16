@@ -1,0 +1,91 @@
+.Projects {
+    width: 100%;
+    height: 100%;
+    padding: 10rem 0;
+    background-color: $h1-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-title {
+    color: black;
+    box-shadow: none;
+    border-color: $h1-color;
+    margin-bottom: $rem-unit * 3;
+}
+
+.proj-wrap {
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.Project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: $rem-unit;
+    background-color: $h1-color;
+    box-shadow: 0.3rem 0.3rem 0.5rem #777;
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.5s;
+}
+
+.Project:hover {
+    box-shadow: $rem-unit $rem-unit $rem-unit #777;
+}
+
+.text {
+    text-align: center;
+    letter-spacing: 0.1rem;
+    position: absolute;
+    top: -10 * $rem-unit;
+    z-index: 10;
+    transition: top 0.3s;
+}
+
+.Project:hover .text {
+    top: 5 * $rem-unit;
+    transition: top 0.3s 0.3s;
+}
+
+.name {
+    font-size: 3 * $rem-unit;
+    font-weight: 700;
+    color: $b-other-color;
+    text-transform: capitalize;
+}
+
+.skills {
+    font-size: 1.8rem;
+    color: $b-color;
+}
+
+.img {
+    width: 40 * $rem-unit;
+    transition: opacity $transition;
+}
+
+.Project:hover, .img {
+    opacity: 0.2;
+}
+
+.github-link {
+    font-size: 2 * $rem-unit;
+    font-weight: 500;
+    color: $b-other-color;
+    letter-spacing: 0.1rem;
+    border: 0.3rem solid $b-color;
+    padding: 0 $rem-unit;
+    background-color: $h1-color;
+    position: absolute;
+    bottom: -5 * $rem-unit;
+    transition: bottom $transition;
+}
+
+.Project:hover .github-link {
+    bottom: 5 *$rem-unit;
+    transition: bottom $transition $transition;
+}
