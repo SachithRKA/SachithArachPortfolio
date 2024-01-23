@@ -22,7 +22,13 @@ const Project_DataBase = [
         skills: "HTML / CSS / SCSS / REACT / JS",
         Img_src: "./img/Projects/portfolio.png",
         Github_link: "https://github.com/SachithRKA/SachithArachPortfolio"
-    }
+    },
+    {
+        Project_Name: "User Authentication System",
+        skills: "HTML / CSS / EJS / REACT / SQL",
+        Img_src: "./img/Projects/AuthenticationSystem.png",
+        Github_link: "https://github.com/SachithRKA/Authentication-System"
+    },
 ]
  
 export default Project_DataBase; 
